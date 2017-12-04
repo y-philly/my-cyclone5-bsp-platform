@@ -1,0 +1,15 @@
+<manifest>
+
+  <!-- <default sync-j="4" revision="mothy"/> -->
+
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="https://git.linaro.org/openembedded" name="linaro"/>
+  <remote fetch="https://github.com/meta-qt5" name="qt5"/>
+
+  <project remote="yocto" revision="morty" name="poky" path="poky"/>
+  <project remote="oe" revision="morty" name="meta-openembedded" path="poky/meta-openembedded"/>
+  <project remote="linaro" revision="morty" name="meta-linaro" path="poky/meta-linaro"/>
+  <project remote="qt5" revision="morty" name="meta-qt5" path="poky/meta-qt5"/>
+
+</manifest>
