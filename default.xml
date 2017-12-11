@@ -5,13 +5,13 @@
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://git.linaro.org/openembedded" name="linaro"/>
-  <!--  <remote fetch="https://github.com/meta-qt5" name="qt5"/> -->
+  <remote fetch="https://github.com/meta-qt5" name="qt5"/>
   <remote fetch="https://github.com/kraj" name="altera"/>
 
   <project remote="yocto" revision="rocko" name="poky" path="poky"/>
   <project remote="oe" revision="rocko" name="meta-openembedded" path="poky/meta-openembedded"/>
   <project remote="linaro" revision="rocko" name="meta-linaro" path="poky/meta-linaro"/>
-  <!--  <project remote="qt5" revision="rocko" name="meta-qt5" path="poky/meta-qt5"/> -->
+  <project remote="qt5" revision="rocko" name="meta-qt5" path="poky/meta-qt5"/>
   <project remote="altera" revision="rocko" name="meta-altera" path="poky/meta-altera"/>
 
 </manifest>
